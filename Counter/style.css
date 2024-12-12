@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    margin-top: 30px;
+}
+.counter {
+    border-radius:15px;
+    background-color: antiquewhite;
+    margin: auto;
+    min-height: 70vh;
+    width: 50vw;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+h1{
+    color: orangered;
+    padding-bottom: 30px;
+}
+h3{
+    font-size: 2rem               ;
+}
+
+.mid{
+display: flex;
+flex-direction: row;
+gap: 2rem;
+}
+
+button{
+    background-color: rgb(205, 171, 107);
+    width: 4rem;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input{
+    font-size: 1rem;
+    padding: 5px;
+    margin-bottom: 35PX;
+}
+
+#reset{
+    margin-top: 20PX;
+    padding: 10px;
+    width: 6rem;
+}
